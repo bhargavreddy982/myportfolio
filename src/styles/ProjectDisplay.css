@@ -1,0 +1,32 @@
+.project {
+  width: 100%;
+  height: calc(100vh - 100px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.project h1 {
+  margin-top: 50px;
+  color: #3e497a;
+  font-size: 35px;
+}
+
+.project img {
+  max-width: 700px; /* Set maximum width */
+  max-height: 400px; /* Set maximum height */
+  width: auto; /* Allow width to adjust according to aspect ratio */
+  height: auto; /* Allow height to adjust according to aspect ratio */
+  border-radius: 10px;
+}
+
+.project p {
+  font-size: 40px;
+  color: #3e497a;
+}
+
+.project svg {
+  font-size: 60px;
+  color: #3e497a;
+}
